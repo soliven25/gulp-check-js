@@ -20,7 +20,7 @@ gulp.task('combine:js', function(){
 });
 
 gulp.task('check',function(){
-	gulp.src('./*.js')
+	gulp.src(['./**/*.js','!./node_modules/**'])
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish'));
 });
