@@ -3,6 +3,8 @@ Checking Javascript Style via Gulp
 
 ## Initial Set up
 
+Install gulp
+
 ```bash
 %npm install -g gulp
 ```
